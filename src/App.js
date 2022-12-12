@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
     <>
-        <h1>Hannah Collections</h1>
+        <Navigation />
     </>
   );
 }
