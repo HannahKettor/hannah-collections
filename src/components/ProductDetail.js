@@ -1,5 +1,5 @@
 import React from "react";
-import image from "/workspace/hannah-collections/src/images/hannah shoe2.jpg"
+import image from "/workspace/hannah-collections/src/images/Hannah 5.avif"
 
 export default function ProductDetail() {
     return (
