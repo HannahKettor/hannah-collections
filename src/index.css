@@ -13,6 +13,29 @@ code {
 }
 
 .button_cart {
-  background-color: orangered;
-  color: white;
+  background-color: rgb(245, 96, 42);
+  color: white
+}
+
+.cart {
+  color: rgb(231, 101, 53); 
+  color: white,
+}
+
+.prod_img {
+  height: 500px;
+  width:100%;
+  border-radius: 10px;
+}
+
+
+.pro_img {
+  height: 50px;
+  width:100%;
+  border-radius: 10px;
+}
+
+.col {
+  color: rgb(231, 101, 53);
+  color: rgb(231, 101, 53);
 }

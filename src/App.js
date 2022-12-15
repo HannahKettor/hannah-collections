@@ -4,13 +4,14 @@ import Navigation from './components/Navigation';
 import ProductDetail from './components/ProductDetail';
 import './index.css'
 
-function App() {
+
+export default function App() {
   return (
     <>
-        <Navigation />
-        <ProductDetail />
+     
+        <ProductDetail/>
     </>
   );
 }
 
-export default App;
+

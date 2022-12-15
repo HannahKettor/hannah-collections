@@ -1,12 +1,17 @@
 import React from "react";
+import Navigation from "./Navigation";
+import image from "/workspace/hannah-collections/src/images/Hannah 5.avif"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'
 
-export default  function Cart () {
+export default function Cart () {
     return (
         <> 
-        <h2 className="">Cart</h2>
+        <Navigation />
+        <h2 className="cart container p-2">Cart</h2>
         <div className="container">
        <div className="row">
-         <div className="col-md-7">
+         <div className="col-sm-7">
             <table className="table">
               <th>
                 <tr>
@@ -19,21 +24,21 @@ export default  function Cart () {
                 </tr>
                 <tr>
                   <td>Leather Sneakers</td>
-                <td><img src=""/></td>
-                <td>5</td>
-                <td>$71.25</td>
-                <td>$712.50</td>
-                <td>Delete</td>
+                <td><img className="pro_img" src={image} /></td>
+                <td>1</td>
+                <td>$47.50</td>
+                <td>$47.50</td>
+                <td className="text-center text-secondary"><FontAwesomeIcon icon={faTrashAlt} /></td>
                 </tr>
               </th>
             </table>
           </div>
-          <div className="col-md-5">
-            <h3 className="h3">Order Summary</h3>
-            <span className="h5">Sub Total</span>&nbsp;&nbsp;<span>$712.50</span><br />
+          <div className="col-sm-5">
+            <h3 className="h3 cart">Order Summary</h3>
+            <span className="h5">Sub Total</span>&nbsp;&nbsp;<span>$47.50</span><br />
             <span className="h5">Shipping</span>&nbsp;&nbsp;<span>$10.00</span><hr />
-            <span className="h5">Grand Total</span>&nbsp;&nbsp;<span>$714.50</span><br />
-            <button className="button mt-4">Checkout</button>
+            <span className="h5">Grand Total</span>&nbsp;&nbsp;<span>$57.50</span><br />
+            <button className="btn button_cart mt-4">Checkout</button>
           </div>
         </div>
     </div>
